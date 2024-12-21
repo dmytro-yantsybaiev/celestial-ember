@@ -1,0 +1,17 @@
+//
+//  CelestialEmberTests.swift
+//  CelestialEmberTests
+//
+//  Created by Dmytro Yantsybaiev on 21.12.2024.
+//
+
+import Testing
+@testable import CelestialEmber
+
+struct CelestialEmberTests {
+
+    @Test func example() async throws {
+        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    }
+
+}
