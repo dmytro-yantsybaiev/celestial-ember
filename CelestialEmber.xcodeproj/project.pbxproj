@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		06018D5E2D4AD0850040B695 /* CoordinatorLive in Frameworks */ = {isa = PBXBuildFile; productRef = 06018D5D2D4AD0850040B695 /* CoordinatorLive */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0681D80A2D17292D00C079E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -33,7 +37,7 @@
 		0681D81B2D17292D00C079E4 /* Exceptions for "CelestialEmber" folder in "CelestialEmber" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = 0681D7F22D17292C00C079E4 /* CelestialEmber */;
 		};
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06018D5E2D4AD0850040B695 /* CoordinatorLive in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +96,7 @@
 				0681D7F52D17292C00C079E4 /* CelestialEmber */,
 				0681D80C2D17292D00C079E4 /* CelestialEmberTests */,
 				0681D8162D17292D00C079E4 /* CelestialEmberUITests */,
+				06A2ED182D3F046F00333D40 /* Frameworks */,
 				0681D7F42D17292C00C079E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +109,13 @@
 				0681D8132D17292D00C079E4 /* CelestialEmberUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		06A2ED182D3F046F00333D40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			);
 			name = CelestialEmber;
 			packageProductDependencies = (
+				06018D5D2D4AD0850040B695 /* CoordinatorLive */,
 			);
 			productName = CelestialEmber;
 			productReference = 0681D7F32D17292C00C079E4 /* CelestialEmber.app */;
@@ -291,10 +305,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2ZK2BA5X87;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CelestialEmber/Info.plist;
+				INFOPLIST_FILE = CelestialEmber/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = it.dmytro.yantsybaiev.CelestialEmber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -319,10 +332,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2ZK2BA5X87;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CelestialEmber/Info.plist;
+				INFOPLIST_FILE = CelestialEmber/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,7 +345,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = it.dmytro.yantsybaiev.CelestialEmber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -569,6 +581,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06018D5D2D4AD0850040B695 /* CoordinatorLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoordinatorLive;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0681D7EB2D17292C00C079E4 /* Project object */;
 }
